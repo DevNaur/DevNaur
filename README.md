@@ -116,7 +116,6 @@
 - 🌐 **Getting Started with Cisco Packet Tracer** — Cisco Networking Academy (Set/2026)
 - 🔒 **Curso de Cibersegurança** — Santander Open Academy & DIO (Out/2026)
 - 💼 **Microsoft Student Ambassadors** (Set/2026)
-- 🥋 **Treinamento White Belt** (Jun/2025)
 
 ---
 
