@@ -1,16 +1,26 @@
-## Hi there 👋
+# Caick Ruan (DevNaur)
 
-<!--
-**DevNaur/DevNaur** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Engenharia de Software @ UNEB | Full Stack & Cybersecurity
 
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+- LinkedIn: https://www.linkedin.com/in/caick-santana-dev
+- - GitHub: https://github.com/DevNaur
+ 
+  - ## Sobre Mim
+  - Estudante de Engenharia de Software na UNEB, apaixonado por desenvolvimento Full Stack (React, TypeScript, Django) e seguranca da informacao.
+ 
+  - ## Tecnologias
+  - - Front-end: React, TypeScript, JavaScript, HTML5, CSS3, Vite
+    - - Back-end: Python, Django, Java, Node.js
+      - - Banco de Dados: MySQL, PostgreSQL
+        - - Cybersecurity & DevOps: Kali Linux, Cisco, Git, Linux, Termux
+         
+          - ## Projetos
+          - - SGA-Edu: Sistema de Gestao Academica (React, TypeScript)
+            - - Modulo de Pagamentos: Django backend
+              - - Pesquisa em Microsservicos & Zero-Trust
+                - - Mini-Servidor Linux / DIY
+                 
+                  - ## Certificacoes
+                  - - Cisco Networking Academy
+                    - - Santander / DIO
+                      - - Microsoft Student Ambassador
