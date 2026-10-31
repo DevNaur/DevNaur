@@ -1,0 +1,114 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 950 480" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGradAbout" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0a14"/>
+      <stop offset="50%" stop-color="#0e0d1f"/>
+      <stop offset="100%" stop-color="#0a0a14"/>
+    </linearGradient>
+
+    <linearGradient id="neonBorderAbout" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8a2be2"/>
+      <stop offset="50%" stop-color="#bd00ff"/>
+      <stop offset="100%" stop-color="#00f5d4"/>
+    </linearGradient>
+
+    <linearGradient id="cardBgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#111126"/>
+      <stop offset="100%" stop-color="#0c0c1a"/>
+    </linearGradient>
+
+    <filter id="aboutGlow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="0" stdDeviation="5" flood-color="#8a2be2" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+
+  <style>
+    .font-mono { font-family: 'Fira Code', 'Cascadia Code', Consolas, monospace; }
+    .font-sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
+    .title-sec { font-weight: 800; font-size: 22px; letter-spacing: 2px; }
+    .card-title { font-weight: 700; font-size: 15px; letter-spacing: 1px; }
+    .card-text { font-size: 13px; line-height: 1.45; fill: #cbd5e1; }
+  </style>
+
+  <!-- Outer HUD Container -->
+  <rect x="5" y="5" width="940" height="470" rx="14" fill="url(#bgGradAbout)"/>
+  <rect x="5" y="5" width="940" height="470" rx="14" fill="none" stroke="url(#neonBorderAbout)" stroke-width="1.8" filter="url(#aboutGlow)"/>
+
+  <!-- Section Header Bar -->
+  <g transform="translate(30, 42)">
+    <text x="0" y="0" fill="#00f5d4" class="font-mono title-sec">01 // SOBRE MIM <tspan fill="#94a3b8" font-size="16">(ABOUT ME)</tspan></text>
+    <!-- Right Deco lines -->
+    <path d="M 860 -15 L 875 -15 M 880 -15 L 895 -15" stroke="#bd00ff" stroke-width="3"/>
+    <text x="850" y="0" text-anchor="end" fill="#64748b" class="font-mono" font-size="14">///</text>
+  </g>
+
+  <!-- Quote Box -->
+  <g transform="translate(30, 65)">
+    <rect x="0" y="0" width="890" height="52" rx="8" fill="#13112a" stroke="#8a2be2" stroke-width="1.2" stroke-dasharray="6,4"/>
+    <text x="445" y="32" text-anchor="middle" fill="#f1f5f9" class="font-sans" font-size="14" font-weight="600" font-style="italic">
+      "Equilibrando o desenvolvimento full stack de alta performance com arquitetura segura e práticas modernas de cibersegurança."
+    </text>
+  </g>
+
+  <!-- ==================== 6 CYBER HUD CARDS ==================== -->
+
+  <!-- Card 1: ACADÊMICO -->
+  <g transform="translate(30, 135)">
+    <rect x="0" y="0" width="435" height="98" rx="8" fill="url(#cardBgGrad)" stroke="#38bdf8" stroke-width="1.2"/>
+    <rect x="12" y="10" width="28" height="28" rx="6" fill="#0369a1" fill-opacity="0.3"/>
+    <text x="26" y="29" text-anchor="middle" font-size="16">🎓</text>
+    <text x="48" y="29" fill="#38bdf8" class="font-mono card-title">ACADÊMICO</text>
+    <text x="15" y="58" class="font-sans card-text">Graduando em Engenharia de Software pela UNEB</text>
+    <text x="15" y="78" class="font-sans card-text">(Universidade do Estado da Bahia — 4º Semestre).</text>
+  </g>
+
+  <!-- Card 2: CIBERSEGURANÇA -->
+  <g transform="translate(485, 135)">
+    <rect x="0" y="0" width="435" height="98" rx="8" fill="url(#cardBgGrad)" stroke="#bd00ff" stroke-width="1.2"/>
+    <rect x="12" y="10" width="28" height="28" rx="6" fill="#701a75" fill-opacity="0.3"/>
+    <text x="26" y="29" text-anchor="middle" font-size="16">🛡️</text>
+    <text x="48" y="29" fill="#d946ef" class="font-mono card-title">CIBERSEGURANÇA</text>
+    <text x="15" y="58" class="font-sans card-text">Foco em Defesa de Aplicações, protocolos de rede e</text>
+    <text x="15" y="78" class="font-sans card-text">laboratórios táticos de exploração/defesa no TryHackMe.</text>
+  </g>
+
+  <!-- Card 3: PESQUISA -->
+  <g transform="translate(30, 248)">
+    <rect x="0" y="0" width="435" height="98" rx="8" fill="url(#cardBgGrad)" stroke="#00f5d4" stroke-width="1.2"/>
+    <rect x="12" y="10" width="28" height="28" rx="6" fill="#0f766e" fill-opacity="0.3"/>
+    <text x="26" y="29" text-anchor="middle" font-size="16">🔬</text>
+    <text x="48" y="29" fill="#00f5d4" class="font-mono card-title">PESQUISA (2026)</text>
+    <text x="15" y="58" class="font-sans card-text">Coautor de pesquisa sobre Arquiteturas Zero-Trust e</text>
+    <text x="15" y="78" class="font-sans card-text">Localização de Incidentes em Microsserviços Conteinerizados.</text>
+  </g>
+
+  <!-- Card 4: ENTUSIASTA LINUX -->
+  <g transform="translate(485, 248)">
+    <rect x="0" y="0" width="435" height="98" rx="8" fill="url(#cardBgGrad)" stroke="#f59e0b" stroke-width="1.2"/>
+    <rect x="12" y="10" width="28" height="28" rx="6" fill="#78350f" fill-opacity="0.3"/>
+    <text x="26" y="29" text-anchor="middle" font-size="16">🐧</text>
+    <text x="48" y="29" fill="#fbbf24" class="font-mono card-title">ENTUSIASTA &amp; HARDWARE</text>
+    <text x="15" y="58" class="font-sans card-text">Apaixonado por Sistemas Linux, DIY e servidores embarcados</text>
+    <text x="15" y="78" class="font-sans card-text">headless em hardware portátil (Termux, Kali NetHunter).</text>
+  </g>
+
+  <!-- Card 5: COMUNIDADE -->
+  <g transform="translate(30, 360)">
+    <rect x="0" y="0" width="435" height="98" rx="8" fill="url(#cardBgGrad)" stroke="#a855f7" stroke-width="1.2"/>
+    <rect x="12" y="10" width="28" height="28" rx="6" fill="#581c87" fill-opacity="0.3"/>
+    <text x="26" y="29" text-anchor="middle" font-size="16">🤝</text>
+    <text x="48" y="29" fill="#c084fc" class="font-mono card-title">COMUNIDADE &amp; OPEN SOURCE</text>
+    <text x="15" y="58" class="font-sans card-text">Participante ativo em projetos colaborativos open source</text>
+    <text x="15" y="78" class="font-sans card-text">e coletivos universitários (iniciativas Saruëz e SGIE).</text>
+  </g>
+
+  <!-- Card 6: ENGENHARIA -->
+  <g transform="translate(485, 360)">
+    <rect x="0" y="0" width="435" height="98" rx="8" fill="url(#cardBgGrad)" stroke="#10b981" stroke-width="1.2"/>
+    <rect x="12" y="10" width="28" height="28" rx="6" fill="#064e3b" fill-opacity="0.3"/>
+    <text x="26" y="29" text-anchor="middle" font-size="16">⚡</text>
+    <text x="48" y="29" fill="#34d399" class="font-mono card-title">CULTURA DE ENGENHARIA</text>
+    <text x="15" y="58" class="font-sans card-text">Código Limpo, GitFlow rigoroso, pipelines automatizadas,</text>
+    <text x="15" y="78" class="font-sans card-text">cobertura de testes e mentalidade DevSecOps Shift-Left.</text>
+  </g>
+</svg>

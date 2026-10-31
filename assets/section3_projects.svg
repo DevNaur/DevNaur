@@ -1,0 +1,188 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 950 510" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGradProj" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0a14"/>
+      <stop offset="50%" stop-color="#0e0d1f"/>
+      <stop offset="100%" stop-color="#0a0a14"/>
+    </linearGradient>
+
+    <linearGradient id="neonBorderProj" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8a2be2"/>
+      <stop offset="50%" stop-color="#00f5d4"/>
+      <stop offset="100%" stop-color="#bd00ff"/>
+    </linearGradient>
+
+    <linearGradient id="windowBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#121124"/>
+      <stop offset="100%" stop-color="#0b0a16"/>
+    </linearGradient>
+
+    <filter id="projGlow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="0" stdDeviation="5" flood-color="#8a2be2" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+
+  <style>
+    .font-mono { font-family: 'Fira Code', 'Cascadia Code', Consolas, monospace; }
+    .font-sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
+    .title-sec { font-weight: 800; font-size: 22px; letter-spacing: 2px; }
+    .proj-title { font-weight: 700; font-size: 15px; letter-spacing: 1px; }
+    .proj-desc { font-size: 12.5px; fill: #cbd5e1; line-height: 1.45; }
+    .tag-lbl { font-size: 11px; font-weight: 600; font-family: 'Fira Code', monospace; }
+    .btn-lbl { font-size: 11.5px; font-weight: 700; font-family: 'Fira Code', monospace; }
+  </style>
+
+  <!-- Container -->
+  <rect x="5" y="5" width="940" height="500" rx="14" fill="url(#bgGradProj)"/>
+  <rect x="5" y="5" width="940" height="500" rx="14" fill="none" stroke="url(#neonBorderProj)" stroke-width="1.8" filter="url(#projGlow)"/>
+
+  <!-- Section Header -->
+  <g transform="translate(30, 42)">
+    <text x="0" y="0" fill="#00f5d4" class="font-mono title-sec">03 // PROJETOS EM DESTAQUE <tspan fill="#94a3b8" font-size="16">(FEATURED PROJECTS)</tspan></text>
+    <path d="M 860 -15 L 875 -15 M 880 -15 L 895 -15" stroke="#bd00ff" stroke-width="3"/>
+  </g>
+
+  <!-- ==================== PROJETO 1: SGA-EDU ==================== -->
+  <g transform="translate(30, 70)">
+    <!-- Terminal Window Frame -->
+    <rect x="0" y="0" width="435" height="195" rx="8" fill="url(#windowBg)" stroke="#38bdf8" stroke-width="1.2"/>
+    <!-- Titlebar with 3 dots -->
+    <rect x="0" y="0" width="435" height="28" rx="8" fill="#1e1b4b" fill-opacity="0.5"/>
+    <circle cx="15" cy="14" r="4.5" fill="#ef4444"/>
+    <circle cx="28" cy="14" r="4.5" fill="#f59e0b"/>
+    <circle cx="41" cy="14" r="4.5" fill="#10b981"/>
+    <!-- Project Header -->
+    <text x="60" y="18" fill="#38bdf8" class="font-mono proj-title">🏛️ SGA-Edu (UNEB)</text>
+
+    <!-- Description -->
+    <text x="18" y="52" class="font-sans proj-desc">Sistema de gestão educacional com controle de acesso granular</text>
+    <text x="18" y="70" class="font-sans proj-desc">(RBAC), SPA veloz em React/TS e integração segura via REST.</text>
+    <text x="18" y="88" class="font-sans proj-desc" fill="#94a3b8" font-size="11.5">Interceptors JWT, Zod validation, Vitest e rotas protegidas.</text>
+
+    <!-- Tags Row -->
+    <g transform="translate(18, 110)">
+      <rect x="0" y="0" width="55" height="22" rx="4" fill="#0f172a" stroke="#38bdf8" stroke-width="0.8"/>
+      <text x="27" y="15" text-anchor="middle" fill="#38bdf8" class="tag-lbl">React</text>
+      <rect x="62" y="0" width="85" height="22" rx="4" fill="#0f172a" stroke="#38bdf8" stroke-width="0.8"/>
+      <text x="104" y="15" text-anchor="middle" fill="#38bdf8" class="tag-lbl">TypeScript</text>
+      <rect x="154" y="0" width="45" height="22" rx="4" fill="#0f172a" stroke="#38bdf8" stroke-width="0.8"/>
+      <text x="176" y="15" text-anchor="middle" fill="#38bdf8" class="tag-lbl">Vite</text>
+      <rect x="206" y="0" width="75" height="22" rx="4" fill="#0f172a" stroke="#38bdf8" stroke-width="0.8"/>
+      <text x="243" y="15" text-anchor="middle" fill="#38bdf8" class="tag-lbl">REST API</text>
+    </g>
+
+    <!-- Button -->
+    <g transform="translate(18, 150)">
+      <rect x="0" y="0" width="399" height="30" rx="6" fill="#0c4a6e" fill-opacity="0.4" stroke="#38bdf8" stroke-width="1"/>
+      <text x="200" y="20" text-anchor="middle" fill="#38bdf8" class="btn-lbl">VER REPOSITÓRIO ➔</text>
+    </g>
+  </g>
+
+  <!-- ==================== PROJETO 2: GATEWAY PAGAMENTOS ==================== -->
+  <g transform="translate(485, 70)">
+    <!-- Terminal Window Frame -->
+    <rect x="0" y="0" width="435" height="195" rx="8" fill="url(#windowBg)" stroke="#10b981" stroke-width="1.2"/>
+    <!-- Titlebar with 3 dots -->
+    <rect x="0" y="0" width="435" height="28" rx="8" fill="#064e3b" fill-opacity="0.3"/>
+    <circle cx="15" cy="14" r="4.5" fill="#ef4444"/>
+    <circle cx="28" cy="14" r="4.5" fill="#f59e0b"/>
+    <circle cx="41" cy="14" r="4.5" fill="#10b981"/>
+    <!-- Project Header -->
+    <text x="60" y="18" fill="#34d399" class="font-mono proj-title">💳 GATEWAY / PAGAMENTOS</text>
+
+    <!-- Description -->
+    <text x="18" y="52" class="font-sans proj-desc">Módulo corporativo focado em transições de status idempotentes,</text>
+    <text x="18" y="70" class="font-sans proj-desc">consistência relacional ACID e rastreabilidade para eventos acadêmicos.</text>
+    <text x="18" y="88" class="font-sans proj-desc" fill="#94a3b8" font-size="11.5">Proteção contra double-spending e arquitetura MVC limpa.</text>
+
+    <!-- Tags Row -->
+    <g transform="translate(18, 110)">
+      <rect x="0" y="0" width="60" height="22" rx="4" fill="#0f172a" stroke="#10b981" stroke-width="0.8"/>
+      <text x="30" y="15" text-anchor="middle" fill="#34d399" class="tag-lbl">Python</text>
+      <rect x="68" y="0" width="65" height="22" rx="4" fill="#0f172a" stroke="#10b981" stroke-width="0.8"/>
+      <text x="100" y="15" text-anchor="middle" fill="#34d399" class="tag-lbl">Django</text>
+      <rect x="140" y="0" width="85" height="22" rx="4" fill="#0f172a" stroke="#10b981" stroke-width="0.8"/>
+      <text x="182" y="15" text-anchor="middle" fill="#34d399" class="tag-lbl">PostgreSQL</text>
+      <rect x="232" y="0" width="50" height="22" rx="4" fill="#0f172a" stroke="#10b981" stroke-width="0.8"/>
+      <text x="257" y="15" text-anchor="middle" fill="#34d399" class="tag-lbl">MVC</text>
+    </g>
+
+    <!-- Button -->
+    <g transform="translate(18, 150)">
+      <rect x="0" y="0" width="399" height="30" rx="6" fill="#064e3b" fill-opacity="0.4" stroke="#10b981" stroke-width="1"/>
+      <text x="200" y="20" text-anchor="middle" fill="#34d399" class="btn-lbl">VER REPOSITÓRIO ➔</text>
+    </g>
+  </g>
+
+  <!-- ==================== PROJETO 3: PESQUISA ZERO-TRUST ==================== -->
+  <g transform="translate(30, 280)">
+    <!-- Terminal Window Frame -->
+    <rect x="0" y="0" width="435" height="195" rx="8" fill="url(#windowBg)" stroke="#bd00ff" stroke-width="1.2"/>
+    <!-- Titlebar with 3 dots -->
+    <rect x="0" y="0" width="435" height="28" rx="8" fill="#4a044e" fill-opacity="0.3"/>
+    <circle cx="15" cy="14" r="4.5" fill="#ef4444"/>
+    <circle cx="28" cy="14" r="4.5" fill="#f59e0b"/>
+    <circle cx="41" cy="14" r="4.5" fill="#10b981"/>
+    <!-- Project Header -->
+    <text x="60" y="18" fill="#d946ef" class="font-mono proj-title">🛡️ PESQUISA ZERO-TRUST</text>
+
+    <!-- Description -->
+    <text x="18" y="52" class="font-sans proj-desc">Artigo e modelagem técnica sobre isolamento de perímetro, contenção</text>
+    <text x="18" y="70" class="font-sans proj-desc">e identificação de incidentes em microsserviços conteinerizados.</text>
+    <text x="18" y="88" class="font-sans proj-desc" fill="#94a3b8" font-size="11.5">Mitigação de blast-radius e políticas de rede estritas.</text>
+
+    <!-- Tags Row -->
+    <g transform="translate(18, 110)">
+      <rect x="0" y="0" width="60" height="22" rx="4" fill="#0f172a" stroke="#bd00ff" stroke-width="0.8"/>
+      <text x="30" y="15" text-anchor="middle" fill="#d946ef" class="tag-lbl">Docker</text>
+      <rect x="68" y="0" width="105" height="22" rx="4" fill="#0f172a" stroke="#bd00ff" stroke-width="0.8"/>
+      <text x="120" y="15" text-anchor="middle" fill="#d946ef" class="tag-lbl">Microsserviços</text>
+      <rect x="180" y="0" width="85" height="22" rx="4" fill="#0f172a" stroke="#bd00ff" stroke-width="0.8"/>
+      <text x="222" y="15" text-anchor="middle" fill="#d946ef" class="tag-lbl">Zero-Trust</text>
+      <rect x="272" y="0" width="80" height="22" rx="4" fill="#0f172a" stroke="#bd00ff" stroke-width="0.8"/>
+      <text x="312" y="15" text-anchor="middle" fill="#d946ef" class="tag-lbl">Segurança</text>
+    </g>
+
+    <!-- Button -->
+    <g transform="translate(18, 150)">
+      <rect x="0" y="0" width="399" height="30" rx="6" fill="#4a044e" fill-opacity="0.4" stroke="#bd00ff" stroke-width="1"/>
+      <text x="200" y="20" text-anchor="middle" fill="#d946ef" class="btn-lbl">VER RESUMO / DOSSIÊ ➔</text>
+    </g>
+  </g>
+
+  <!-- ==================== PROJETO 4: MINI-SERVIDOR DIY MOBILE ==================== -->
+  <g transform="translate(485, 280)">
+    <!-- Terminal Window Frame -->
+    <rect x="0" y="0" width="435" height="195" rx="8" fill="url(#windowBg)" stroke="#00f5d4" stroke-width="1.2"/>
+    <!-- Titlebar with 3 dots -->
+    <rect x="0" y="0" width="435" height="28" rx="8" fill="#042f2e" fill-opacity="0.3"/>
+    <circle cx="15" cy="14" r="4.5" fill="#ef4444"/>
+    <circle cx="28" cy="14" r="4.5" fill="#f59e0b"/>
+    <circle cx="41" cy="14" r="4.5" fill="#10b981"/>
+    <!-- Project Header -->
+    <text x="60" y="18" fill="#00f5d4" class="font-mono proj-title">📱 MINI-SERVIDOR DIY MOBILE</text>
+
+    <!-- Description -->
+    <text x="18" y="52" class="font-sans proj-desc">Engenharia de hardware: transformação de smartphone Android</text>
+    <text x="18" y="70" class="font-sans proj-desc">antigo em servidor Linux headless para laboratórios portáteis.</text>
+    <text x="18" y="88" class="font-sans proj-desc" fill="#94a3b8" font-size="11.5">Túneis SSH criptografados, Termux e Kali NetHunter 24/7.</text>
+
+    <!-- Tags Row -->
+    <g transform="translate(18, 110)">
+      <rect x="0" y="0" width="55" height="22" rx="4" fill="#0f172a" stroke="#00f5d4" stroke-width="0.8"/>
+      <text x="27" y="15" text-anchor="middle" fill="#00f5d4" class="tag-lbl">Linux</text>
+      <rect x="62" y="0" width="65" height="22" rx="4" fill="#0f172a" stroke="#00f5d4" stroke-width="0.8"/>
+      <text x="94" y="15" text-anchor="middle" fill="#00f5d4" class="tag-lbl">Termux</text>
+      <rect x="134" y="0" width="105" height="22" rx="4" fill="#0f172a" stroke="#00f5d4" stroke-width="0.8"/>
+      <text x="186" y="15" text-anchor="middle" fill="#00f5d4" class="tag-lbl">NetHunter</text>
+      <rect x="246" y="0" width="85" height="22" rx="4" fill="#0f172a" stroke="#00f5d4" stroke-width="0.8"/>
+      <text x="288" y="15" text-anchor="middle" fill="#00f5d4" class="tag-lbl">Networking</text>
+    </g>
+
+    <!-- Button -->
+    <g transform="translate(18, 150)">
+      <rect x="0" y="0" width="399" height="30" rx="6" fill="#042f2e" fill-opacity="0.4" stroke="#00f5d4" stroke-width="1"/>
+      <text x="200" y="20" text-anchor="middle" fill="#00f5d4" class="btn-lbl">VER DOCUMENTAÇÃO ➔</text>
+    </g>
+  </g>
+</svg>

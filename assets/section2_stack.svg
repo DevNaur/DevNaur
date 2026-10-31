@@ -1,0 +1,182 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 950 440" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGradStack" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0a14"/>
+      <stop offset="50%" stop-color="#0e0d1f"/>
+      <stop offset="100%" stop-color="#0a0a14"/>
+    </linearGradient>
+
+    <linearGradient id="neonBorderStack" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8a2be2"/>
+      <stop offset="50%" stop-color="#00f5d4"/>
+      <stop offset="100%" stop-color="#bd00ff"/>
+    </linearGradient>
+
+    <linearGradient id="boxGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#121124"/>
+      <stop offset="100%" stop-color="#0c0b17"/>
+    </linearGradient>
+
+    <filter id="stackGlow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="0" stdDeviation="5" flood-color="#8a2be2" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+
+  <style>
+    .font-mono { font-family: 'Fira Code', 'Cascadia Code', Consolas, monospace; }
+    .font-sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
+    .title-sec { font-weight: 800; font-size: 22px; letter-spacing: 2px; }
+    .category-title { font-weight: 700; font-size: 13px; letter-spacing: 1.5px; }
+    .tag-text { font-size: 12px; font-weight: 600; font-family: 'Fira Code', monospace; }
+  </style>
+
+  <!-- Container -->
+  <rect x="5" y="5" width="940" height="430" rx="14" fill="url(#bgGradStack)"/>
+  <rect x="5" y="5" width="940" height="430" rx="14" fill="none" stroke="url(#neonBorderStack)" stroke-width="1.8" filter="url(#stackGlow)"/>
+
+  <!-- Header -->
+  <g transform="translate(30, 42)">
+    <text x="0" y="0" fill="#00f5d4" class="font-mono title-sec">02 // ARSENAL TECNOLÓGICO <tspan fill="#94a3b8" font-size="16">(TECH STACK)</tspan></text>
+    <path d="M 860 -15 L 875 -15 M 880 -15 L 895 -15" stroke="#00f5d4" stroke-width="3"/>
+  </g>
+
+  <!-- ==================== ROW 1: FRONT-END & BACK-END ==================== -->
+
+  <!-- FRONT-END BOX -->
+  <g transform="translate(30, 70)">
+    <rect x="0" y="0" width="435" height="105" rx="8" fill="url(#boxGrad)" stroke="#38bdf8" stroke-width="1.2"/>
+    <text x="18" y="24" fill="#38bdf8" class="font-mono category-title">FRONT-END</text>
+    
+    <!-- Badges Row -->
+    <g transform="translate(18, 40)">
+      <!-- React -->
+      <rect x="0" y="0" width="60" height="28" rx="5" fill="#20232a" stroke="#61dafb" stroke-width="1"/>
+      <text x="30" y="19" text-anchor="middle" fill="#61dafb" class="tag-text">React</text>
+      <!-- TS -->
+      <rect x="68" y="0" width="45" height="28" rx="5" fill="#007acc" stroke="#3178c6" stroke-width="1"/>
+      <text x="90" y="19" text-anchor="middle" fill="#ffffff" class="tag-text">TS</text>
+      <!-- JS -->
+      <rect x="121" y="0" width="45" height="28" rx="5" fill="#f7df1e"/>
+      <text x="143" y="19" text-anchor="middle" fill="#000000" class="tag-text">JS</text>
+      <!-- HTML5 -->
+      <rect x="174" y="0" width="58" height="28" rx="5" fill="#e34f26"/>
+      <text x="203" y="19" text-anchor="middle" fill="#ffffff" class="tag-text">HTML5</text>
+      <!-- CSS3 -->
+      <rect x="240" y="0" width="54" height="28" rx="5" fill="#1572b6"/>
+      <text x="267" y="19" text-anchor="middle" fill="#ffffff" class="tag-text">CSS3</text>
+      <!-- Vite -->
+      <rect x="302" y="0" width="52" height="28" rx="5" fill="#bd34fe" stroke="#ffd62e" stroke-width="1"/>
+      <text x="328" y="19" text-anchor="middle" fill="#ffffff" class="tag-text">Vite</text>
+    </g>
+    <text x="18" y="93" fill="#94a3b8" class="font-sans" font-size="11">Single Page Applications (SPA), Context API, Custom Hooks, Tailwind CSS</text>
+  </g>
+
+  <!-- BACK-END BOX -->
+  <g transform="translate(485, 70)">
+    <rect x="0" y="0" width="435" height="105" rx="8" fill="url(#boxGrad)" stroke="#10b981" stroke-width="1.2"/>
+    <text x="18" y="24" fill="#34d399" class="font-mono category-title">BACK-END &amp; CORE</text>
+
+    <!-- Badges Row -->
+    <g transform="translate(18, 40)">
+      <!-- Python -->
+      <rect x="0" y="0" width="70" height="28" rx="5" fill="#3776ab" stroke="#ffd43b" stroke-width="1"/>
+      <text x="35" y="19" text-anchor="middle" fill="#ffffff" class="tag-text">Python</text>
+      <!-- Django -->
+      <rect x="78" y="0" width="72" height="28" rx="5" fill="#092e20" stroke="#44b78b" stroke-width="1"/>
+      <text x="114" y="19" text-anchor="middle" fill="#ffffff" class="tag-text">Django</text>
+      <!-- Java -->
+      <rect x="158" y="0" width="55" height="28" rx="5" fill="#e76f00"/>
+      <text x="185" y="19" text-anchor="middle" fill="#ffffff" class="tag-text">Java</text>
+      <!-- C/C++ -->
+      <rect x="221" y="0" width="60" height="28" rx="5" fill="#00599c"/>
+      <text x="251" y="19" text-anchor="middle" fill="#ffffff" class="tag-text">C / C++</text>
+      <!-- REST API -->
+      <rect x="289" y="0" width="80" height="28" rx="5" fill="#1e293b" stroke="#34d399" stroke-width="1"/>
+      <text x="329" y="19" text-anchor="middle" fill="#34d399" class="tag-text">REST APIs</text>
+    </g>
+    <text x="18" y="93" fill="#94a3b8" class="font-sans" font-size="11">Arquitetura MVC, Transições Idempotentes, POO, Resiliência &amp; Clean Code</text>
+  </g>
+
+  <!-- ==================== ROW 2: BANCO DE DADOS & CYBERSECURITY ==================== -->
+
+  <!-- BANCO DE DADOS BOX -->
+  <g transform="translate(30, 190)">
+    <rect x="0" y="0" width="435" height="105" rx="8" fill="url(#boxGrad)" stroke="#818cf8" stroke-width="1.2"/>
+    <text x="18" y="24" fill="#818cf8" class="font-mono category-title">BANCOS DE DADOS &amp; STORAGE</text>
+
+    <!-- Badges Row -->
+    <g transform="translate(18, 40)">
+      <!-- PostgreSQL -->
+      <rect x="0" y="0" width="105" height="28" rx="5" fill="#336791" stroke="#68a0cf" stroke-width="1"/>
+      <text x="52" y="19" text-anchor="middle" fill="#ffffff" class="tag-text">PostgreSQL</text>
+      <!-- MySQL -->
+      <rect x="113" y="0" width="75" height="28" rx="5" fill="#00758f"/>
+      <text x="150" y="19" text-anchor="middle" fill="#ffffff" class="tag-text">MySQL</text>
+      <!-- SQLite -->
+      <rect x="196" y="0" width="70" height="28" rx="5" fill="#003b57"/>
+      <text x="231" y="19" text-anchor="middle" fill="#ffffff" class="tag-text">SQLite</text>
+      <!-- ACID -->
+      <rect x="274" y="0" width="95" height="28" rx="5" fill="#1e1b4b" stroke="#818cf8" stroke-width="1"/>
+      <text x="321" y="19" text-anchor="middle" fill="#a5b4fc" class="tag-text">ACID / Relat.</text>
+    </g>
+    <text x="18" y="93" fill="#94a3b8" class="font-sans" font-size="11">Modelagem relacional, constraints de integridade, índices e migrações seguras</text>
+  </g>
+
+  <!-- CYBERSECURITY & INFRA BOX -->
+  <g transform="translate(485, 190)">
+    <rect x="0" y="0" width="435" height="105" rx="8" fill="url(#boxGrad)" stroke="#d946ef" stroke-width="1.2"/>
+    <text x="18" y="24" fill="#f472b6" class="font-mono category-title">CYBERSECURITY &amp; INFRAESTRUTURA</text>
+
+    <!-- Badges Row -->
+    <g transform="translate(18, 40)">
+      <!-- Kali Linux -->
+      <rect x="0" y="0" width="85" height="28" rx="5" fill="#1f2937" stroke="#38bdf8" stroke-width="1"/>
+      <text x="42" y="19" text-anchor="middle" fill="#38bdf8" class="tag-text">Kali Linux</text>
+      <!-- Linux Kernel -->
+      <rect x="93" y="0" width="60" height="28" rx="5" fill="#f59e0b"/>
+      <text x="123" y="19" text-anchor="middle" fill="#000000" class="tag-text">Linux</text>
+      <!-- Packet Tracer -->
+      <rect x="161" y="0" width="105" height="28" rx="5" fill="#0284c7"/>
+      <text x="213" y="19" text-anchor="middle" fill="#ffffff" class="tag-text">Packet Tracer</text>
+      <!-- Zero Trust -->
+      <rect x="274" y="0" width="95" height="28" rx="5" fill="#4a044e" stroke="#d946ef" stroke-width="1"/>
+      <text x="321" y="19" text-anchor="middle" fill="#f472b6" class="tag-text">Zero-Trust</text>
+    </g>
+    <text x="18" y="93" fill="#94a3b8" class="font-sans" font-size="11">Defesa perimetral, OWASP Top 10, redes, túneis SSH e laboratórios TryHackMe</text>
+  </g>
+
+  <!-- ==================== ROW 3: DEVOPS & FERRAMENTAS (FULL WIDTH) ==================== -->
+  <g transform="translate(30, 310)">
+    <rect x="0" y="0" width="890" height="105" rx="8" fill="url(#boxGrad)" stroke="#00f5d4" stroke-width="1.2"/>
+    <text x="18" y="24" fill="#00f5d4" class="font-mono category-title">DEVOPS, TOOLING &amp; ENGENHARIA DE SOFTWARE</text>
+
+    <!-- Badges Row -->
+    <g transform="translate(18, 40)">
+      <!-- Git -->
+      <rect x="0" y="0" width="55" height="28" rx="5" fill="#f05032"/>
+      <text x="27" y="19" text-anchor="middle" fill="#ffffff" class="tag-text">Git</text>
+      <!-- GitHub -->
+      <rect x="63" y="0" width="75" height="28" rx="5" fill="#181717" stroke="#ffffff" stroke-width="1"/>
+      <text x="100" y="19" text-anchor="middle" fill="#ffffff" class="tag-text">GitHub</text>
+      <!-- Docker -->
+      <rect x="146" y="0" width="75" height="28" rx="5" fill="#2496ed"/>
+      <text x="183" y="19" text-anchor="middle" fill="#ffffff" class="tag-text">Docker</text>
+      <!-- VS Code -->
+      <rect x="229" y="0" width="85" height="28" rx="5" fill="#007acc"/>
+      <text x="271" y="19" text-anchor="middle" fill="#ffffff" class="tag-text">VS Code</text>
+      <!-- Shell Scripting -->
+      <rect x="322" y="0" width="115" height="28" rx="5" fill="#4eaa25"/>
+      <text x="379" y="19" text-anchor="middle" fill="#ffffff" class="tag-text">Shell Scripting</text>
+      <!-- n8n -->
+      <rect x="445" y="0" width="55" height="28" rx="5" fill="#ea4b71"/>
+      <text x="472" y="19" text-anchor="middle" fill="#ffffff" class="tag-text">n8n</text>
+      <!-- GitFlow -->
+      <rect x="508" y="0" width="80" height="28" rx="5" fill="#0f172a" stroke="#00f5d4" stroke-width="1"/>
+      <text x="548" y="19" text-anchor="middle" fill="#00f5d4" class="tag-text">GitFlow</text>
+      <!-- CI/CD -->
+      <rect x="596" y="0" width="75" height="28" rx="5" fill="#0f172a" stroke="#38bdf8" stroke-width="1"/>
+      <text x="633" y="19" text-anchor="middle" fill="#38bdf8" class="tag-text">CI / CD</text>
+    </g>
+    <text x="18" y="93" fill="#94a3b8" class="font-sans" font-size="11">Pipelines automatizadas, pull requests rastreáveis, automações com n8n e ambientes Linux remotos</text>
+  </g>
+</svg>

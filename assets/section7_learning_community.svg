@@ -1,0 +1,122 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 950 430" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGradLearn" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0a14"/>
+      <stop offset="50%" stop-color="#0e0d1f"/>
+      <stop offset="100%" stop-color="#0a0a14"/>
+    </linearGradient>
+
+    <linearGradient id="neonBorderLearn" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8a2be2"/>
+      <stop offset="50%" stop-color="#00f5d4"/>
+      <stop offset="100%" stop-color="#bd00ff"/>
+    </linearGradient>
+
+    <linearGradient id="learnCardBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#121124"/>
+      <stop offset="100%" stop-color="#0c0b17"/>
+    </linearGradient>
+
+    <filter id="learnGlow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="0" stdDeviation="5" flood-color="#8a2be2" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+
+  <style>
+    .font-mono { font-family: 'Fira Code', 'Cascadia Code', Consolas, monospace; }
+    .font-sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
+    .title-sec { font-weight: 800; font-size: 20px; letter-spacing: 2px; }
+    .box-title { font-weight: 700; font-size: 14px; letter-spacing: 1px; }
+    .desc-text { font-size: 12.5px; fill: #cbd5e1; line-height: 1.45; }
+    .tag-lbl { font-size: 11px; font-weight: 600; font-family: 'Fira Code', monospace; }
+  </style>
+
+  <!-- Container -->
+  <rect x="5" y="5" width="940" height="420" rx="14" fill="url(#bgGradLearn)"/>
+  <rect x="5" y="5" width="940" height="420" rx="14" fill="none" stroke="url(#neonBorderLearn)" stroke-width="1.8" filter="url(#learnGlow)"/>
+
+  <!-- ==================== SECTION 07: FOCO ATUAL & APRENDIZADO ==================== -->
+  <g transform="translate(30, 36)">
+    <text x="0" y="0" fill="#00f5d4" class="font-mono title-sec">07 // FOCO ATUAL &amp; APRENDIZADO</text>
+    <path d="M 860 -12 L 875 -12 M 880 -12 L 895 -12" stroke="#00f5d4" stroke-width="3"/>
+  </g>
+
+  <!-- Card 1: ESTUDOS ATUAIS -->
+  <g transform="translate(30, 52)">
+    <rect x="0" y="0" width="435" height="135" rx="8" fill="url(#learnCardBg)" stroke="#38bdf8" stroke-width="1.2"/>
+    <rect x="0" y="0" width="435" height="26" rx="8" fill="#0c4a6e" fill-opacity="0.25"/>
+    <circle cx="15" cy="13" r="4" fill="#ef4444"/>
+    <circle cx="27" cy="13" r="4" fill="#f59e0b"/>
+    <circle cx="39" cy="13" r="4" fill="#10b981"/>
+    <text x="55" y="17" fill="#38bdf8" class="font-mono box-title">⏳ ESTUDOS ATUAIS</text>
+
+    <text x="18" y="48" class="font-sans desc-text">Aprimorando habilidades nas tecnologias mais requisitadas</text>
+    <text x="18" y="66" class="font-sans desc-text">pelo mercado de engenharia moderna e nuvem segura.</text>
+
+    <!-- Tags Row -->
+    <g transform="translate(18, 90)">
+      <rect x="0" y="0" width="98" height="22" rx="4" fill="#0f172a" stroke="#38bdf8" stroke-width="0.8"/>
+      <text x="49" y="15" text-anchor="middle" fill="#38bdf8" class="tag-lbl">Cloud Security</text>
+      <rect x="104" y="0" width="80" height="22" rx="4" fill="#0f172a" stroke="#38bdf8" stroke-width="0.8"/>
+      <text x="144" y="15" text-anchor="middle" fill="#38bdf8" class="tag-lbl">Kubernetes</text>
+      <rect x="190" y="0" width="45" height="22" rx="4" fill="#0f172a" stroke="#38bdf8" stroke-width="0.8"/>
+      <text x="212" y="15" text-anchor="middle" fill="#38bdf8" class="tag-lbl">AWS</text>
+      <rect x="241" y="0" width="75" height="22" rx="4" fill="#0f172a" stroke="#38bdf8" stroke-width="0.8"/>
+      <text x="278" y="15" text-anchor="middle" fill="#38bdf8" class="tag-lbl">DevSecOps</text>
+    </g>
+  </g>
+
+  <!-- Card 2: PRÓXIMAS METAS -->
+  <g transform="translate(485, 52)">
+    <rect x="0" y="0" width="435" height="135" rx="8" fill="url(#learnCardBg)" stroke="#d946ef" stroke-width="1.2"/>
+    <rect x="0" y="0" width="435" height="26" rx="8" fill="#701a75" fill-opacity="0.25"/>
+    <circle cx="15" cy="13" r="4" fill="#ef4444"/>
+    <circle cx="27" cy="13" r="4" fill="#f59e0b"/>
+    <circle cx="39" cy="13" r="4" fill="#10b981"/>
+    <text x="55" y="17" fill="#d946ef" class="font-mono box-title">🎯 PRÓXIMAS METAS</text>
+
+    <text x="18" y="48" class="font-sans desc-text">Certificações em segurança de nível internacional (ex: Security+,</text>
+    <text x="18" y="66" class="font-sans desc-text">eJPT), automação avançada de infraestrutura e arquiteturas</text>
+    <text x="18" y="84" class="font-sans desc-text">de microsserviços resilientes em larga escala.</text>
+
+    <g transform="translate(18, 100)">
+      <text x="0" y="15" fill="#f472b6" class="font-mono tag-lbl">&gt;_ FOCO: DEEPENING CLOUD &amp; DEFENSE AUTOMATION</text>
+    </g>
+  </g>
+
+  <!-- ==================== SECTION 08: ENGAJAMENTO & COMUNIDADE ==================== -->
+  <g transform="translate(30, 230)">
+    <text x="0" y="0" fill="#00f5d4" class="font-mono title-sec">08 // ENGAJAMENTO &amp; COMUNIDADE</text>
+    <path d="M 860 -12 L 875 -12 M 880 -12 L 895 -12" stroke="#bd00ff" stroke-width="3"/>
+  </g>
+
+  <!-- Card 3: DESAFIOS & CTFS -->
+  <g transform="translate(30, 246)">
+    <rect x="0" y="0" width="435" height="145" rx="8" fill="url(#learnCardBg)" stroke="#f59e0b" stroke-width="1.2"/>
+    <rect x="0" y="0" width="435" height="26" rx="8" fill="#78350f" fill-opacity="0.25"/>
+    <circle cx="15" cy="13" r="4" fill="#ef4444"/>
+    <circle cx="27" cy="13" r="4" fill="#f59e0b"/>
+    <circle cx="39" cy="13" r="4" fill="#10b981"/>
+    <text x="55" y="17" fill="#fbbf24" class="font-mono box-title">🥷 DESAFIOS &amp; CTFS</text>
+
+    <text x="18" y="52" class="font-sans desc-text">Resolução contínua de laboratórios práticos de invasão e defesa</text>
+    <text x="18" y="72" class="font-sans desc-text">nas plataformas TryHackMe e Hack The Box (HTB).</text>
+    <text x="18" y="92" class="font-sans desc-text">Treinamentos práticos de mitigação de vulnerabilidades reais</text>
+    <text x="18" y="112" class="font-sans desc-text" fill="#94a3b8" font-size="11.5">com foco em Red/Blue Teaming e resposta a incidentes.</text>
+  </g>
+
+  <!-- Card 4: EVENTOS & COLETIVOS -->
+  <g transform="translate(485, 246)">
+    <rect x="0" y="0" width="435" height="145" rx="8" fill="url(#learnCardBg)" stroke="#10b981" stroke-width="1.2"/>
+    <rect x="0" y="0" width="435" height="26" rx="8" fill="#064e3b" fill-opacity="0.25"/>
+    <circle cx="15" cy="13" r="4" fill="#ef4444"/>
+    <circle cx="27" cy="13" r="4" fill="#f59e0b"/>
+    <circle cx="39" cy="13" r="4" fill="#10b981"/>
+    <text x="55" y="17" fill="#34d399" class="font-mono box-title">🤝 EVENTOS &amp; COLETIVOS</text>
+
+    <text x="18" y="52" class="font-sans desc-text">Participação ativa em eventos de tecnologia, maratonas e segurança.</text>
+    <text x="18" y="72" class="font-sans desc-text">Engajamento constante em projetos de código aberto e grupos</text>
+    <text x="18" y="92" class="font-sans desc-text">de pesquisa acadêmica na UNEB (coletivos Saruëz e SGIE),</text>
+    <text x="18" y="112" class="font-sans desc-text" fill="#94a3b8" font-size="11.5">fomentando a cultura dev e troca de conhecimento técnico.</text>
+  </g>
+</svg>

@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 950 310" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGradCerts" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0a14"/>
+      <stop offset="50%" stop-color="#0e0d1f"/>
+      <stop offset="100%" stop-color="#0a0a14"/>
+    </linearGradient>
+
+    <linearGradient id="neonBorderCerts" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8a2be2"/>
+      <stop offset="50%" stop-color="#00f5d4"/>
+      <stop offset="100%" stop-color="#bd00ff"/>
+    </linearGradient>
+
+    <linearGradient id="certCardBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#121124"/>
+      <stop offset="100%" stop-color="#0c0b17"/>
+    </linearGradient>
+
+    <filter id="certsGlow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="0" stdDeviation="5" flood-color="#8a2be2" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+
+  <style>
+    .font-mono { font-family: 'Fira Code', 'Cascadia Code', Consolas, monospace; }
+    .font-sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
+    .title-sec { font-weight: 800; font-size: 22px; letter-spacing: 2px; }
+    .cert-title { font-weight: 700; font-size: 14.5px; }
+    .cert-issuer { font-size: 12.5px; fill: #94a3b8; font-family: 'Fira Code', monospace; }
+  </style>
+
+  <!-- Container -->
+  <rect x="5" y="5" width="940" height="300" rx="14" fill="url(#bgGradCerts)"/>
+  <rect x="5" y="5" width="940" height="300" rx="14" fill="none" stroke="url(#neonBorderCerts)" stroke-width="1.8" filter="url(#certsGlow)"/>
+
+  <!-- Section Header -->
+  <g transform="translate(30, 42)">
+    <text x="0" y="0" fill="#00f5d4" class="font-mono title-sec">04 // CERTIFICAÇÕES &amp; QUALIFICAÇÕES <tspan fill="#94a3b8" font-size="16">(CERTIFICATIONS)</tspan></text>
+    <path d="M 860 -15 L 875 -15 M 880 -15 L 895 -15" stroke="#00f5d4" stroke-width="3"/>
+  </g>
+
+  <!-- ==================== 4 CERTIFICATION CARDS ==================== -->
+
+  <!-- Cert 1: Cisco Digital Badge -->
+  <g transform="translate(30, 70)">
+    <rect x="0" y="0" width="435" height="95" rx="8" fill="url(#certCardBg)" stroke="#38bdf8" stroke-width="1.2"/>
+    <rect x="15" y="15" width="38" height="38" rx="8" fill="#0369a1" fill-opacity="0.3"/>
+    <text x="34" y="41" text-anchor="middle" font-size="22">🛡️</text>
+    <text x="65" y="32" fill="#38bdf8" class="font-sans cert-title">Digital Badge em Cibersegurança</text>
+    <text x="65" y="52" class="cert-issuer">— Cisco Networking Academy (Ago/2026)</text>
+    <text x="65" y="75" fill="#64748b" class="font-sans" font-size="11.5">Fundamentos de segurança defensiva e proteção de infra</text>
+  </g>
+
+  <!-- Cert 2: Cisco Packet Tracer -->
+  <g transform="translate(485, 70)">
+    <rect x="0" y="0" width="435" height="95" rx="8" fill="url(#certCardBg)" stroke="#818cf8" stroke-width="1.2"/>
+    <rect x="15" y="15" width="38" height="38" rx="8" fill="#312e81" fill-opacity="0.3"/>
+    <text x="34" y="41" text-anchor="middle" font-size="22">🌐</text>
+    <text x="65" y="32" fill="#818cf8" class="font-sans cert-title">Getting Started with Cisco Packet Tracer</text>
+    <text x="65" y="52" class="cert-issuer">— Cisco Networking Academy (Set/2026)</text>
+    <text x="65" y="75" fill="#64748b" class="font-sans" font-size="11.5">Modelagem e simulação de topologias de redes e roteamento</text>
+  </g>
+
+  <!-- Cert 3: Santander Open Academy & DIO -->
+  <g transform="translate(30, 185)">
+    <rect x="0" y="0" width="435" height="95" rx="8" fill="url(#certCardBg)" stroke="#d946ef" stroke-width="1.2"/>
+    <rect x="15" y="15" width="38" height="38" rx="8" fill="#701a75" fill-opacity="0.3"/>
+    <text x="34" y="41" text-anchor="middle" font-size="22">🔒</text>
+    <text x="65" y="32" fill="#d946ef" class="font-sans cert-title">Curso de Cibersegurança</text>
+    <text x="65" y="52" class="cert-issuer">— Santander Open Academy &amp; DIO (Out/2026)</text>
+    <text x="65" y="75" fill="#64748b" class="font-sans" font-size="11.5">Práticas corporativas de segurança e mitigação de riscos</text>
+  </g>
+
+  <!-- Cert 4: Microsoft Student Ambassadors -->
+  <g transform="translate(485, 185)">
+    <rect x="0" y="0" width="435" height="95" rx="8" fill="url(#certCardBg)" stroke="#00f5d4" stroke-width="1.2"/>
+    <rect x="15" y="15" width="38" height="38" rx="8" fill="#042f2e" fill-opacity="0.3"/>
+    <text x="34" y="41" text-anchor="middle" font-size="22">💼</text>
+    <text x="65" y="32" fill="#00f5d4" class="font-sans cert-title">Microsoft Student Ambassadors</text>
+    <text x="65" y="52" class="cert-issuer">— Microsoft Community (Set/2026)</text>
+    <text x="65" y="75" fill="#64748b" class="font-sans" font-size="11.5">Engajamento comunitário em tecnologia e liderança acadêmica</text>
+  </g>
+</svg>

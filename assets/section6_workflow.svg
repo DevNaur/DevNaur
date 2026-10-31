@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 950 280" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGradWorkflow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0a14"/>
+      <stop offset="50%" stop-color="#0e0d1f"/>
+      <stop offset="100%" stop-color="#0a0a14"/>
+    </linearGradient>
+
+    <linearGradient id="neonBorderWorkflow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8a2be2"/>
+      <stop offset="50%" stop-color="#bd00ff"/>
+      <stop offset="100%" stop-color="#00f5d4"/>
+    </linearGradient>
+
+    <linearGradient id="workCardBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#121124"/>
+      <stop offset="100%" stop-color="#0c0b17"/>
+    </linearGradient>
+
+    <filter id="wfGlow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="0" stdDeviation="5" flood-color="#8a2be2" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+
+  <style>
+    .font-mono { font-family: 'Fira Code', 'Cascadia Code', Consolas, monospace; }
+    .font-sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
+    .title-sec { font-weight: 800; font-size: 22px; letter-spacing: 2px; }
+    .col-title { font-weight: 700; font-size: 13.5px; letter-spacing: 1px; }
+    .item-text { font-size: 12.5px; fill: #cbd5e1; line-height: 1.5; }
+  </style>
+
+  <!-- Container -->
+  <rect x="5" y="5" width="940" height="270" rx="14" fill="url(#bgGradWorkflow)"/>
+  <rect x="5" y="5" width="940" height="270" rx="14" fill="none" stroke="url(#neonBorderWorkflow)" stroke-width="1.8" filter="url(#wfGlow)"/>
+
+  <!-- Section Header -->
+  <g transform="translate(30, 42)">
+    <text x="0" y="0" fill="#00f5d4" class="font-mono title-sec">06 // METODOLOGIA &amp; COMO TRABALHO <tspan fill="#94a3b8" font-size="16">(WORKFLOW &amp; METHODOLOGY)</tspan></text>
+    <path d="M 860 -15 L 875 -15 M 880 -15 L 895 -15" stroke="#bd00ff" stroke-width="3"/>
+  </g>
+
+  <!-- ==================== 3 COLUMNS ==================== -->
+
+  <!-- Column 1: PRÁTICAS DE ENGENHARIA -->
+  <g transform="translate(30, 68)">
+    <rect x="0" y="0" width="285" height="185" rx="8" fill="url(#workCardBg)" stroke="#38bdf8" stroke-width="1.2"/>
+    <rect x="12" y="10" width="28" height="28" rx="6" fill="#0369a1" fill-opacity="0.3"/>
+    <text x="26" y="29" text-anchor="middle" font-size="16">⚙️</text>
+    <text x="46" y="29" fill="#38bdf8" class="font-mono col-title">PRÁTICAS DE ENGENHARIA</text>
+
+    <!-- Items -->
+    <text x="15" y="62" class="font-sans item-text">• Código Limpo &amp; Design Patterns</text>
+    <text x="15" y="88" class="font-sans item-text">• GitFlow &amp; Versionamento Avançado</text>
+    <text x="15" y="114" class="font-sans item-text">• CI/CD &amp; Automação de Pipelines</text>
+    <text x="15" y="140" class="font-sans item-text">• Testes Unitários &amp; Integração</text>
+    <text x="15" y="166" class="font-sans item-text" fill="#94a3b8" font-size="11.5">Confiabilidade e manutenibilidade</text>
+  </g>
+
+  <!-- Column 2: CULTURA & AGILIDADE -->
+  <g transform="translate(332, 68)">
+    <rect x="0" y="0" width="285" height="185" rx="8" fill="url(#workCardBg)" stroke="#a855f7" stroke-width="1.2"/>
+    <rect x="12" y="10" width="28" height="28" rx="6" fill="#581c87" fill-opacity="0.3"/>
+    <text x="26" y="29" text-anchor="middle" font-size="16">👥</text>
+    <text x="46" y="29" fill="#c084fc" class="font-mono col-title">CULTURA &amp; AGILIDADE</text>
+
+    <!-- Items -->
+    <text x="15" y="62" class="font-sans item-text">• Metodologias Ágeis (Scrum / Kanban)</text>
+    <text x="15" y="88" class="font-sans item-text">• Comunicação Clara &amp; Assíncrona</text>
+    <text x="15" y="114" class="font-sans item-text">• Colaboração &amp; Trabalho em Equipe</text>
+    <text x="15" y="140" class="font-sans item-text">• Documentação Técnica Detalhada</text>
+    <text x="15" y="166" class="font-sans item-text" fill="#94a3b8" font-size="11.5">Transparência e entregas previsíveis</text>
+  </g>
+
+  <!-- Column 3: SEGURANÇA POR DESIGN -->
+  <g transform="translate(635, 68)">
+    <rect x="0" y="0" width="285" height="185" rx="8" fill="url(#workCardBg)" stroke="#00f5d4" stroke-width="1.2"/>
+    <rect x="12" y="10" width="28" height="28" rx="6" fill="#042f2e" fill-opacity="0.3"/>
+    <text x="26" y="29" text-anchor="middle" font-size="16">🛡️</text>
+    <text x="46" y="29" fill="#00f5d4" class="font-mono col-title">SEGURANÇA POR DESIGN</text>
+
+    <!-- Items -->
+    <text x="15" y="62" class="font-sans item-text">• Práticas de DevSecOps Integrado</text>
+    <text x="15" y="88" class="font-sans item-text">• Análise de Vulnerabilidades (OWASP)</text>
+    <text x="15" y="114" class="font-sans item-text">• Arquiteturas de Defesa (Zero-Trust)</text>
+    <text x="15" y="140" class="font-sans item-text">• Consciência de Riscos em Código</text>
+    <text x="15" y="166" class="font-sans item-text" fill="#94a3b8" font-size="11.5">Shift-Left Security em cada commit</text>
+  </g>
+</svg>
